@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Banner</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #1a1a2e;
+            padding: 20px;
+        }
+
+        .banner {
+            width: 1200px;
+            height: 400px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 80px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        .banner::before {
+            content: '';
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            top: -250px;
+            right: -100px;
+        }
+
+        .banner::after {
+            content: '';
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+            bottom: -200px;
+            left: -100px;
+        }
+
+        .content {
+            position: relative;
+            z-index: 2;
+            flex: 1;
+        }
+
+        .title {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 72px;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 10px;
+            letter-spacing: -2px;
+        }
+
+        .name {
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 32px;
+            color: rgba(255, 255, 255, 0.9);
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.8);
+            max-width: 600px;
+            line-height: 1.6;
+        }
+
+        .icon-container {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            gap: 30px;
+        }
+
+        .flutter-icon {
+            width: 180px;
+            height: 180px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 100px;
+            animation: float 3s ease-in-out infinite;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .flutter-icon:nth-child(2) {
+            animation-delay: 0.5s;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .dots {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        .dot {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+        }
+
+        .dot:nth-child(1) { top: 20%; left: 10%; }
+        .dot:nth-child(2) { top: 40%; left: 20%; }
+        .dot:nth-child(3) { top: 60%; left: 15%; }
+        .dot:nth-child(4) { top: 30%; left: 80%; }
+        .dot:nth-child(5) { top: 70%; left: 85%; }
+        .dot:nth-child(6) { top: 50%; left: 90%; }
+        .dot:nth-child(7) { top: 15%; left: 50%; }
+        .dot:nth-child(8) { top: 80%; left: 60%; }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="dots">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+        
+        <div class="content">
+            <div class="title">
+                Hi 👋, I'm <span class="name">Hitesh Birari</span>
+            </div>
+            <div class="subtitle">Flutter Developer</div>
+            <div class="description">
+                2+ years of experience building production Android & iOS applications
+            </div>
+        </div>
+
+        <div class="icon-container">
+            <div class="flutter-icon">📱</div>
+            <div class="flutter-icon">💻</div>
+        </div>
+    </div>
+
+    <script>
+        // Instructions
+        console.log('📸 To create your banner image:');
+        console.log('1. Press F12 to open DevTools');
+        console.log('2. Press Ctrl+Shift+P (or Cmd+Shift+P on Mac)');
+        console.log('3. Type "Capture screenshot" and select "Capture node screenshot"');
+        console.log('4. Click on the banner element');
+        console.log('5. Save as "banner.png" in your portfolio folder');
+        console.log('6. Upload to GitHub and use in README.md');
+    </script>
+</body>
+</html>
