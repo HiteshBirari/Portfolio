@@ -11,7 +11,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### 🌐 [View Live Portfolio](https://ornate-beignet-838d0b.netlify.app)
+### 🌐 [View Live Portfolio](https://hiteshbirari-portfolio.netlify.app/)
 
 *A modern, responsive portfolio showcasing my Flutter development expertise and production applications*
 
@@ -118,7 +118,7 @@ This portfolio website includes:
 ## 🚀 Quick Start
 
 ### View Online
-Visit the live portfolio: [https://ornate-beignet-838d0b.netlify.app](https://ornate-beignet-838d0b.netlify.app)
+Visit the live portfolio: [https://hiteshbirari-portfolio.netlify.app/](https://hiteshbirari-portfolio.netlify.app/)
 
 ### Run Locally
 
@@ -153,20 +153,6 @@ portfolio/
 ├── README.md              # This file
 └── DEPLOYMENT_GUIDE.md    # Netlify deployment instructions
 ```
-
----
-
-## 🎨 Technologies Used
-
-- **HTML5** - Semantic markup
-- **CSS3** - Modern styling with animations
-- **JavaScript** - Interactive features
-- **Font Awesome** - Icons
-- **Google Fonts** - Typography
-- **Netlify** - Hosting and deployment
-
----
-
 ## 📱 Responsive Design
 
 The portfolio is fully responsive and optimized for:
@@ -199,7 +185,7 @@ I'm always open to discussing new opportunities, collaborations, or just chattin
 📧 **Email:** [dev.hiteshbirari@gmail.com](mailto:dev.hiteshbirari@gmail.com)  
 📱 **Phone:** +91 7620678260  
 💼 **LinkedIn:** [linkedin.com/in/hiteshbirari](https://linkedin.com/in/hiteshbirari)  
-🐙 **GitHub:** [github.com/hiteshbirari](https://github.com/hiteshbirari)
+🐙 **GitHub:** [github.com/hiteshbirari](https://github.com/HiteshBirari/Portfolio)
 
 ---
 
